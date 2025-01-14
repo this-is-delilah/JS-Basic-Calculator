@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS Calculator</title>
+        <link
+        rel="stylesheet"
+        href="styles/js-calculator.css">
+    </head>
+    <body>
+        <p class="header">4-Function Calculator</p>
+        <p class="js-result text">0</p>
+
+        <p></p>
+        <button class="button1 calculatorButton" onclick="
+            digitOne();
+        ">1</button>
+        <button class="button2 calculatorButton" onclick="
+            digitTwo();
+        ">2</button>
+        <button class="button3 calculatorButton" onclick="
+            digitThree();
+        ">3</button>
+        <button class="buttonAdd calculatorMathsInput" onclick="
+            addition();
+        ">+</button>
+        <p></p>
+        <button class="button4 calculatorButton" onclick="
+            digitFour();
+        ">4</button>
+        <button class="button5 calculatorButton" onclick="
+            digitFive();
+        ">5</button>
+        <button class="button6 calculatorButton" onclick="
+            digitSix();
+        ">6</button>
+        <button class="buttonSubtract calculatorMathsInput" onclick="
+            subtraction();
+        ">-</button>
+        <p></p>
+        <button class="button7 calculatorButton" onclick="
+            digitSeven();
+        ">7</button>
+        <button class="button8 calculatorButton" onclick="
+            digitEight();
+        ">8</button>
+        <button class="button9 calculatorButton" onclick="
+            digitNine();
+        ">9</button>
+        <button class="buttonMultiply calculatorMathsInput" onclick="
+            multiplication();
+        ">*</button>
+        <p></p>
+        <button class="button0 calculatorButton" onclick="
+            digitZero();
+        ">0</button>
+        <button class="buttonDecimal calculatorButton" onclick="
+            digitDecimal();
+        ">.</button>
+        <button class="buttonEquals calculatorButton" onclick="
+            doMaths();
+        ">=</button>
+        <button class="buttonDivide calculatorMathsInput" onclick="
+            division();
+        ">/</button>
+        <p></p>
+        <button class="button7 calculatorClearButton" onclick="
+            clearEverything();
+        ">Clear</button>
+        
+
+        <script src="scripts/js-calculator.js"></script>
+    </body>
+</html>
